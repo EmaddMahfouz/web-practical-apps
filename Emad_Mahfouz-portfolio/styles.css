@@ -234,9 +234,6 @@ nav [class*="fa-"]:hover {
     border-left: 1px solid var(--aqua);
     border-top: 1px solid var(--aqua);
     border-radius: 25px;
-    height: 300;
-    width: 450%;
-
 }
 
 
@@ -264,12 +261,12 @@ footer ul {
         grid-template-columns: repeat(10, 1fr);
     }
 
-    #projects {
+    #achievements {
         max-width: 1200px;
         margin: 0 auto;
     }
 
-    #projects img {
+    #achievements img {
         grid-column: 1/6;
         grid-row: 1/2;
     }
@@ -281,22 +278,22 @@ footer ul {
         text-align: right;
     }
 
-    #projects ul {
+    #achievements ul {
         justify-content: flex-end;
     }
 
-    #projects .reverse .text {
+    #achievements .reverse .text {
         grid-column: 1/7;
         order: 2;
         text-align: left;
     }
 
-    #projects .reverse img {
+    #achievements.reverse img {
         grid-column: 6/11;
         grid-row: 1/2;
     }
 
-    #projects .reverse ul {
+    #achievements .reverse ul {
         justify-content: flex-start;
     }
 }
